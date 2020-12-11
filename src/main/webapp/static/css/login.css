@@ -1,0 +1,203 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;
+	height: 104px;
+	background-color: #171a21;
+}
+
+.header_center {
+	width: 940px;
+	height: 104px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 176px;
+	height: 44px;
+	padding-top: 30px;
+	margin-right: 30px;
+	float: left;
+}
+
+.supernav {
+
+	float: left;
+}
+
+.menuitem {
+	padding: 7px;
+	padding-top: 42px;
+	font-size: 8px display: inline-block;
+	color: #b8b6b4;
+	float: left;
+}
+
+.main {
+	width: 100%;
+	height: 800px;
+
+}
+
+.main_center {
+	width: 940px;
+	height: 800px;
+	padding: 40px 20px 20px 20px;
+	margin: 0 auto;
+}
+
+.login_div {
+
+	height: 800px;
+	float: left;
+	margin-left: 150px
+}
+
+.loginbox_content {
+	width: 274px;
+	height: 800px;
+	margin: 0 auto;
+}
+
+.login_title {
+	width: 274px;
+	height: 49px;
+	font-size: 34px;
+	color: #ffffff;
+	margin-bottom: 30px;
+	font-weight: 200;
+	text-align: center;
+}
+
+.login_form {
+	color: #b8b6b4;
+	width: 274px;
+	height: 180px;
+}
+
+#username {
+	width: 270px;
+	height: 35px;
+	padding: 8px 6px;
+	background-color: #32353c;
+	border: none;
+	outline: none;
+}
+
+#password {
+	width: 270px;
+	height: 35px;
+	padding: 8px 6px;
+	background-color: #32353c;
+	border: none;
+	outline: none;
+}
+
+#repassword {
+	width: 270px;
+	height: 35px;
+	padding: 8px 6px;
+	background-color: #32353c;
+	border: none;
+	outline: none;
+}
+
+.login_row {
+	width: 274px;
+	height: 62px;
+	margin-bottom: 18px;
+	font-size: 14px
+}
+
+.login_row input {
+	border-radius: 3px;
+	color: #E9E9E9;
+}
+
+#error_display {
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0.2);
+	background-image: none;
+	background-origin: padding-box;
+	background-position-x: 0%;
+	background-position-y: 0%;
+
+	background-size: auto;
+	border-bottom-color: rgb(180, 64, 64);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgb(180, 64, 64);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(180, 64, 64);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(180, 64, 64);
+	border-top-style: solid;
+	border-top-width: 1px;
+	color: rgb(255, 255, 255);
+	display: block;
+	font-family: "Motiva Sans",
+
+		font-size:14px;
+	font-weight: 300;
+	height: 20px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 15px;
+	max-width: 350px;
+	padding-bottom: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 16px;
+}
+
+.login_btn_ctn {
+	height: 75px;
+	width: 274px;
+	margin-top: 20px;
+
+}
+
+.login_btn_signin {
+	width: 192px;
+	height: 75px;
+	margin: 0 auto;
+}
+
+.btn_blue_steamui {
+	width: 190px;
+	height: 36px;
+	background: linear-gradient(to right, #47bfff 5%, #1a44c2 60%);
+	border: none;
+	outline: none;
+	color: #c3e1f8;
+
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.btn_blue_steamui:hover {
+	background: linear-gradient(to right, #47deff 5%, #1887c2 60%);
+	color: #ffffff;
+	cursor:pointer;
+}
+
+.login_btn_signin a {
+	color: white;
+	display: block;
+	width: 192px;
+	height: 17px;
+	margin-top: 20px;
+	text-align: center;
+
+}
